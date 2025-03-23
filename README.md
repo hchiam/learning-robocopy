@@ -4,6 +4,43 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 - buit into windows, not on mac
 - CLI command (vs a UI like [Total Commander](https://www.youtube.com/watch?v=_txtc5EjbXI))
+- TL;DR:
+
+  - ```sh
+    # diffs before actually do:
+    robocopy C:\source\folder C:\destination\folder /MIR /L
+    
+    # actually copy over diffs:
+    robocopy C:\source\folder C:\destination\folder /MIR
+    ```
+
+  - ```sh
+    # diffs before actually do:
+    rbcd() {
+        source_folder="$1"
+        dest_folder="$2"
+        
+        if [[ -z "$source_folder" || -z "$dest_folder" ]]; then
+            echo "Usage: rbcd <source_folder> <dest_folder>"
+            return 1
+        fi
+
+        robocopy "$source_folder" "$dest_folder" /MIR /L
+    }
+
+    # actually copy over diffs:
+    rbc() {
+        source_folder="$1"
+        dest_folder="$2"
+        
+        if [[ -z "$source_folder" || -z "$dest_folder" ]]; then
+            echo "Usage: rbc <source_folder> <dest_folder>"
+            return 1
+        fi
+
+        robocopy "$source_folder" "$dest_folder" /MIR
+    }
+    ```
 
 ## Main Notes
 
