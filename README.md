@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-- windows, not on mac
+- buit into windows, not on mac
 
 Notes from <https://www.youtube.com/watch?v=-vl3pNVr_8Q>
 
