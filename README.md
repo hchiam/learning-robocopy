@@ -7,6 +7,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - TL;DR:
 
   - ```sh
+    # for windows:
+    
     # diffs before actually do:
     robocopy C:\source\folder C:\destination\folder /MIR /L
     
@@ -15,6 +17,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
     ```
 
   - ```sh
+    # for windows:
+
     # diffs before actually do:
     rbcd() {
         source_folder="$1"
