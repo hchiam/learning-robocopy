@@ -3,7 +3,7 @@
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 - buit into windows, not on mac
-- CLI command (vs a UI like Total Commander)
+- CLI command (vs a UI like [Total Commander](https://www.youtube.com/watch?v=_txtc5EjbXI))
 
 Notes from <https://www.youtube.com/watch?v=-vl3pNVr_8Q>
 
